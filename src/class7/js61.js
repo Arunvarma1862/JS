@@ -15,5 +15,5 @@ const func=user1.about.bind(user1);
 func()
 
 
-
+//hello world
 
