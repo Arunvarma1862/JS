@@ -4,6 +4,7 @@
 function about(hobby, singer){
     console.log(this.firstname,this.age,hobby,singer)
 }
+
 const user1={
     firstname:"virat",
     age:63,

@@ -1,4 +1,4 @@
-//methods
+// methods
 // function inside object
 
 function personInfo(){
