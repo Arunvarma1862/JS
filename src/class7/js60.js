@@ -26,3 +26,5 @@ about.apply(user1,["violin","rahman"])
 //bind
 const func1=about.bind(user1,"violin","bach");
 func1();
+
+// hello world 
