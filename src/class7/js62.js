@@ -1,4 +1,4 @@
-// this inside arrow function-this refers to global(which is window)
+// this inside arrow function-here this refers to global(which is window)
 
 const user1={
     firstname:"virat",

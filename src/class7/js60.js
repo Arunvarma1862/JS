@@ -1,4 +1,4 @@
-//call, apply and  bind
+//call,apply and bind
 
 
 function about(hobby, singer){

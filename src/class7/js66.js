@@ -13,22 +13,20 @@ const userMethods={
  }
  
  function createUser(firstName,lastName,email,age,address){
-     const user={};
+     const user=Object.create(userMethods)
      user.firstName=firstName;
      user.lastName=lastName;
      user.email=email;
      user.age=age;
      user.address=address;
-     user.about=userMethods.about;
-     user.is18=userMethods.is18;
-     user.sing=userMethods.sing;
+    
      return user;
  };
  
   const user1=createUser("ram","singh","ram@gmail.com",52,"house number-18, UP");
   const user2=createUser("sam","singh","sam@gmail.com",525,"house number-158, AP");
   const user3=createUser("bala","singh","bala@gmail.com",25,"house number-58, MP");
- 
+  console.log(user1)
   console.log(user1.about());
   console.log(user3.about());
  
