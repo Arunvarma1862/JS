@@ -1,7 +1,3 @@
-
-
-//same method in subclass// method overriding
-
 class Animal{
     constructor(name,age){
         this.name=name;
@@ -9,10 +5,12 @@ class Animal{
     }
 
     eat(){
-        return `${this.name} is eating `
+        console.log("before");
+        return `${this.name} is eating `;
+    
     }
     isSuperCute(){
-        return this.age <=1
+        return this.age <=1;
     }
 
     isCute(){
@@ -28,6 +26,7 @@ class dog extends Animal{
         this.speed=speed
     }
     eat(){
+        super.eat()
         return `modified eat ${this.name}`
     }
 
@@ -38,9 +37,14 @@ class dog extends Animal{
         return `${this.speed}`
     }
 }
-// object/instance
-const animal1= new Animal("tiger",1);
+
+// const animal1= new Animal("tiger",1);
+// const doggy= new dog("dogggy",63,635);
+// console.log(doggy.isRoar());
+// console.log(doggy.run())
+// console.log(doggy.eat())
+
+const animal1= new Animal("sher",122);
 const doggy= new dog("dogggy",63,635);
-console.log(doggy.isRoar());
-console.log(doggy.run())
+console.log(animal1);
 console.log(doggy.eat())
