@@ -1,7 +1,7 @@
 // example-3
 
 function func1(){
-let counter=0;
+    let counter=0;
 return function(){
     if(counter<1){
         console.log("hi, I called you");
@@ -19,7 +19,7 @@ myfunc();
 myfunc();
 
 
-const myfun=func1();
-myfun();
-myfun();
-myfun();
+// const myfun=func1();
+// myfun();
+// myfun();
+// myfun();

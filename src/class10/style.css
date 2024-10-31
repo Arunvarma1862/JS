@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: indigo;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+   /* position: relative; */
+   min-height: 60vh;
+   background-image: url("./images/pexels-moose-photos-170195-1037992.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: indigo;
+}
+.container{
+    max-width: 1200px; 
+    margin: auto;
+    width: 90%;
+    /* background-color: yellow; */
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    min-width: 20%;
+    list-style-type: none;
+    /* background-color: yellow; */
+}
+.headline{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column; 
+    /* transform: translate(-50%,-50%); */
+    /* position: absolute; 
+    top: 50%;
+    left: 50%; */
+    
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    
+}
+.section-todo{
+    margin-top: 2rem;
+    text-align: center;
+    width: 60%;
+}
+.form-todo{
+    margin-top: 1rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+}
+.form-todo input{
+    min-height: 100%;
+    padding: 0.8rem;
+}
+.form-todo input[type="text"] {
+   width:68%;
+   font-weight: 200;
+   font-size: 15px;
+}
+.form-todo input[type="submit"] {
+    width:28%;
+    background-color: #5e8b8b;
+    font-weight: bold;
+ }
+ .section-signup{
+    margin-top: 2rem;
+    width: 60%;
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+   
+
+ }
+ h2{
+    padding-top: 5px;
+ }
+ .signup-Form {
+    max-width: 900px;
+    width: 95%;
+    margin:  auto;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    
+   
+}
+ .signup-Form label{
+     display: block;
+     margin-left: 5px;
+     text-align: left;
+ }
+ .signup-Form input{
+    display: block;
+    width: 85%;
+    padding-left: 20px;
+    color: grey;
+    outline: none;
+    padding: 0.5rem;
+}
+.signup-Form button{
+  background-color: blue;
+  padding: 5px;
+  color: white;
+}
+.signup-Form textarea{
+   width: 99%;
+  }
+.form-group{
+    margin-top: 1rem;
+}
+.signup-btn{
+    display: block;
+    margin: auto;
+    background-color: rgb(141, 137, 137);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
