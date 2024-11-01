@@ -80,6 +80,10 @@ a{
     text-align: center;
     width: 60%;
 }
+.bg-dark{
+    background-color: black;
+    color: white;
+}
 .form-todo{
     margin-top: 1rem;
     /* border: 2px solid blue; */
