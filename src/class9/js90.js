@@ -2,7 +2,7 @@
 
 function func1(){
     let counter=0;
-return function(){
+   return function(){
     if(counter<1){
         console.log("hi, I called you");
         counter++;

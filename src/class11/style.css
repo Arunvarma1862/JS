@@ -102,6 +102,20 @@ a{
     color: white;
     margin: 5px;
     text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-btn {
+    padding: 0.5rem 0.5rem;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .form-todo{
     margin-top: 1rem;
@@ -176,3 +190,4 @@ a{
     border-radius: 5px;
     padding: 1rem 2rem;
 }
+

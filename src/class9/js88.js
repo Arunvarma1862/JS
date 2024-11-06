@@ -8,4 +8,4 @@ function hello(x){
     }
 }
 const ans=hello("arg");
-ans()
+ans();

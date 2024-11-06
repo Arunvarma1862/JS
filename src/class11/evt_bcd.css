@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    min-width: 200px;
+    min-height: 100px;
+    /* border: 1px solid blue; */
+    margin: 10px auto;
+    padding: 2rem;
+    color: rgb(99, 78, 78);
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.grandparent{
+    background-color: rgb(108, 154, 179);
+}
+.parent{
+    background-color: rgb(63, 207, 226);
+}
+.child{
+    background-color: rgb(114, 114, 167);
+}
