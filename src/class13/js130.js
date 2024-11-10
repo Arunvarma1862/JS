@@ -43,5 +43,5 @@ changeText(heading1,"one","yellow",1000).then(()=>{
 }).then(()=>{
     return changeText(heading7,"seven","cyan",1000);
 }).catch((value)=>{
-    alert(`${value} element not exits`)
+    alert(`${value} element doesn't exits`)
 })
