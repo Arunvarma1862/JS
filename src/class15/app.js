@@ -9,7 +9,6 @@ window.addEventListener("todoschange",()=>{
 
 // try to get store from localStorage
 const storefromLocalstorage= JSON.parse(localStorage.getItem("store"));
-// console.log(storefromLocalstorage.todos);
 if(storefromLocalstorage?.todos.length>0){
     store.todos= storefromLocalstorage.todos;
 }
