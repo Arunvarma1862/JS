@@ -1,12 +1,25 @@
 import render from "./render.js";
-import { addTodo as add, deleteTodo,togglecomplete } from "./store.js";
+import store from "./store.js";
+import  { addTodo as add, deleteTodo,togglecomplete } from "./store.js";
 
 window.addEventListener("todoschange",()=>{
-    console.log("event called")
+    console.log("event called");
     render();
 });
+
+// try to get store from localStorage
+const storefromLocalstorage= JSON.parse(localStorage.getItem("store"));
+// console.log(storefromLocalstorage.todos);
+if(storefromLocalstorage?.todos.length>0){
+    store.todos= storefromLocalstorage.todos;
+}
+else{
+    localStorage.setItem("store",JSON.stringify(store));
+    render();  // initial render
+}
+
 // todos: []  // array is reference types
- render();  // initial render
+
 
 const form = document.getElementById("form");
 form.addEventListener("submit",(event)=>{
@@ -32,22 +45,22 @@ todos.addEventListener("click",(e)=>{
     const target= e.target;
     if(target.classList.contains("delete-todo-button")){
         const li= target.closest(".todo").dataset.id;
-        console.log(li);
+        // console.log(li);
         deleteTodo(li);
     
     }
 })
 
 todos.addEventListener("change",(e)=>{
-    console.log(e)
-    console.log(e.target);
+    // console.log(e)
+    // console.log(e.target);
     const target= e.target;
     if(target.classList.contains("todo-checkbox"))
  {
     const id= target.closest(".todo").dataset.id;
     const completed= target.checked
     togglecomplete(id,completed)
-    console.log(target.checked);
-    console.log(id)
+    // console.log(target.checked);
+    // console.log(id)
   }
 })
