@@ -12,11 +12,11 @@ body{
 .main{
     /* border: 5px solid blue; */
     height: 100%;
-    /* display: grid;
-    place-items: center; */
-    display: flex;
+    display: grid;
+    place-items: center;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .openModalButton{
     font-size: 20px;
@@ -28,7 +28,7 @@ body{
 
 }
 .modal{
-    background-color: orange;
+    /* background-color: rgba(20, 19, 15, 0.063); */
     position: fixed;
     top: 0;
     left: 0;
@@ -37,8 +37,16 @@ body{
     display: grid;
     place-items: center;
 }
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(49, 42, 28, 0.807);
+}
 .model_content{
-    background-color: white;
+    background-color: #fff;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     position: relative;
@@ -62,4 +70,7 @@ body{
      border: none;
      background-color: transparent;
      cursor: pointer;
+}
+.overflowHidden{
+    overflow: hidden;
 }
