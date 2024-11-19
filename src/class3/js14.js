@@ -1,10 +1,11 @@
-// intro to arrays- reference type , which are called as object
-// arrays are muttable , can change the original array but strings are not  muttable can't change the original string but can assign in new string
+
+// Intro to arrays- reference type,which are called as object
+// arrays are muttable , can change the original array but strings are not muttable can't change  the original string but can assign in new string
 // array is collection of elements/items
 // ordered collection of items
 
-let fruits=["apple","mango","grapes"];
-let mixed = [null,undefined, true, 2, 2.6, "helloworld",0]
+let fruits = ["apple","mango","grapes"];
+let mixed  = [null,undefined, true, 2, 2.6, "helloworld",0]
 console.log(fruits);
 console.log(fruits[2]);
 fruits[1]="kiwi";

@@ -2,8 +2,10 @@
 
 let i=1;
 
-do{
+do
+{
     console.log(i);
     i++;
 }
+
 while(i<=100)
