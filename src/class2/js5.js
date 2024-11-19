@@ -1,6 +1,6 @@
 // truthy and falsy values
 
-// Falsy values: false, 0, "" (empty string), null, undefined, and NaN.
+// Falsy values:  false, 0, "" (empty string), null, undefined, and NaN.
 // Truthy values: Everything else (e.g., non-empty strings, non-zero numbers, arrays, objects).
 
 // falsy values
@@ -11,7 +11,7 @@ null
 undefined
 0
 
-//truthy values
+// truthy values
 
 // abc 
 // +1 -1
@@ -19,11 +19,11 @@ undefined
 
 // ternary operator  or conditional operator
 
-let age=18;
+let age = 18;
 console.log(`You ${age >= 18?"can":"can't"}  play game `)
 
 
-// let a="";
+// let a = "";
 
 // if(a){
 //     console.log("helloworld")

@@ -1,4 +1,5 @@
 // data types (primitive data types)
+
 // String
 // Number
 // null
@@ -9,25 +10,25 @@
 
 let age=25;
 let names="hello world"
- console.log(typeof age)
- console.log(typeof names)
+ console.log(typeof age);
+ console.log(typeof names);
 
 //convert number to string 
 
 age= age.toString();  // method-1
 // age= age + "";       //  method-2
-console.log(typeof age,age)
+console.log(typeof age,age);
+
 
 // convert string to number
 
 let ab="563"
-// ab=+"563"            method-1
+// ab=+"563"                 method-1
 ab= Number.parseInt(ab);  // method-2
 console.log(typeof ab, ab)
 
 
 console.log(`india is my country ${ab}  and ${names}`)
-
 
 //undefined
 
@@ -57,7 +58,7 @@ console.log(userProfile.address);
 // Here, null is used to indicate that the address field is intentionally left empty at first but will be filled later.
 
 console.log(typeof undefined)
-console.log(typeof null)  // object it is bug/error
+console.log(typeof null)      // object it is bug/error
 
 //bigint
 

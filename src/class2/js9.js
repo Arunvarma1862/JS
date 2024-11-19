@@ -25,3 +25,23 @@ switch (day) {
     console.log("saturday");
     break;
 }
+
+let team="ind";
+
+switch(team){
+  case "ind":
+  console.log("india");
+  break;
+  case "pak":
+  console.log("pakistan");
+  break;
+  case "eng":
+  console.log("england");
+  break;
+  case "aus":
+  console.log("australia");
+  break;
+  default:
+    console.log("Indian")
+    break;
+}

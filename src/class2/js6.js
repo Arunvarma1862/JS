@@ -12,9 +12,10 @@ else{
 }
 
 // or operator
-if(names[0]=== "v" || age === 23){
+if(names[0]=== "v" || age === 23)
+    {
     console.log("selected")
-}
-else{
+   }
+  else{
     console.log("not selected")
 }
