@@ -1,6 +1,6 @@
 // how to clone array 
 
-let array1=["item1","item2","item3"];
+let array1=["item1","item2","item3"];   
 // let array2=array1.slice(0).concat(["item4","item5"]);   // method-1 to clone array and concat
 // let array2=[].concat(array1,["item4","item5"]);    // method-2 to clone array and concat
 let array2=[...array1,"item4","item5"]       // method-3 spread operator to clone and concat
@@ -34,6 +34,7 @@ function add(x, y, z) {
 }
 
 let nums = [1, 2, 3];
+// console.log("checking ",...nums);
 console.log(add(...nums)); // Output: 6 (spread the array elements as arguments)
 
 
@@ -70,6 +71,7 @@ console.log(chars); // Output: ['H', 'e', 'l', 'l', 'o']
 
 //5 Spread in Function Arguments (Rest Parameters)
 function sum(...numbers) {
+    console.log("check",...numbers)
     return numbers.reduce((total, num) => total + num, 0);
 }
 
@@ -82,7 +84,20 @@ function Mul(...nums){
     },1)     
 }
 let numss =[1,2,3,4,5,6,7,8,9];
-console.log(Mul(...numss))
+console.log(Mul(...numss));
+
+
+//7
+
+function add(...num){
+
+return  num.reduce((total,numb)=>{
+   return  total+numb
+ },1)
+}
+
+let numsss=[1,2,3,4,5];
+console.log(add(...numsss))
 
 
 

@@ -8,4 +8,4 @@
 const fruits=["apple","mango","kiwi","baby"];
 console.log(fruits);
 fruits.push("babu");
-console.log(fruits)
+console.log(fruits);

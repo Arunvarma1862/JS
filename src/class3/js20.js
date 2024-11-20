@@ -1,7 +1,8 @@
 // While loop in array 
 
 const fruits=["apple","mango","kiwi","baby"];
-const fruits2=[]
+console.log(fruits.length);
+const fruits2=[];
 
 let i=0;
 while(i<fruits.length){

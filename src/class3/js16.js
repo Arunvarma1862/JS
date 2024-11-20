@@ -16,6 +16,7 @@ let array2=array1;
 console.log("array1",array1)
 console.log("array2",array2)
 console.log(array1===array2)  // true
-array1.push("item3")
-console.log("array1",array1)
-console.log("array2",array2)
+array1.push("item3");
+array1.shift();
+console.log("array1",array1);
+console.log("array2",array2);

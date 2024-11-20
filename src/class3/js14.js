@@ -1,5 +1,5 @@
 
-// Intro to arrays- reference type,which are called as object
+// Intro to arrays- reference type, which are called as object
 // arrays are muttable , can change the original array but strings are not muttable can't change  the original string but can assign in new string
 // array is collection of elements/items
 // Ordered collection of items
