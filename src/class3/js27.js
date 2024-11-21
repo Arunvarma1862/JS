@@ -22,7 +22,7 @@
 // let mergeObj={...obj,...obj2,century:100};
 // console.log(mergeObj)
 
-//3
+//3  overriding 
 // let obj={
 //     name:"virat",
 //     age:56
@@ -44,11 +44,11 @@
 
 //5
 
-let newString=[..."abc"];
+let newString=[..."abc"];   // convert string to array
 let a="india"
-a=[...a]
-let num={..."123456789"};   // string 
-let b={...["item1","item2"]}  // array
+a=[...a]   // convert string to array
+let num={..."123456789"};   // convert string to object
+let b={...["item1","item2"]}  // convert array to object
 let obj={
     name:"virat",
     age:25
@@ -59,3 +59,10 @@ console.log(newString)
 console.log(a)
 console.log(b)
 console.log(c)
+
+
+
+//6 convert array to object
+let arr1=[1,2,3,4,5];
+let obj16={...arr1};
+console.log(obj16)

@@ -17,5 +17,8 @@ for(let key in obj){
 console.log(Object.keys(obj))
 
 for(let key of Object.keys(obj)){
-    console.log("Data is", key)
+    console.log("Data is", key);
+   
 }
+
+

@@ -27,3 +27,11 @@ let b=[4,5,6];
 let c= [...a,...b];
 console.log("spread operator",c);
 
+
+let item1=["apple","mango","kiwi","orange"];
+
+let[a1,...a2]=item1;
+console.log(a1);
+console.log(a2);
+// console.log(a3);
+

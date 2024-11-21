@@ -14,4 +14,19 @@ const{ind:Team1,aus,...restTeams}=Team;
 
 console.log(Team1);
 console.log(aus)
-console.log(restTeams)
+console.log(restTeams);
+
+
+//2
+
+const fruits={
+    key1:"mango",
+    key2:"apple",
+    key3:"kiwi",
+    key4:"banana"
+}
+
+const {key1:fruits1, key2,...restkeys}=fruits;
+console.log(fruits1);
+console.log(key2);
+console.log(restkeys)
