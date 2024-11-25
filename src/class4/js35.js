@@ -16,3 +16,22 @@ function app() {
   func1();
 }
 app();
+
+
+
+const num="val1";
+function app1(){
+  // const num="val1";
+  const func1= function (){
+    // const num="val1";
+   const func2=()=> {
+      // const num="val1";
+      console.log("value is", num)
+    }
+    func2()
+  }
+  func1()
+}
+
+
+app1()

@@ -7,7 +7,7 @@ func159()
 //     console.log("hello world")
 // }
 
-// arrow function will get call function should befor intialization
+// arrow function will get call function should before intialization
 const func159=()=>{
     console.log("hello world")
 }

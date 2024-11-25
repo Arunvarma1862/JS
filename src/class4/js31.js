@@ -1,6 +1,6 @@
 // function declaration and expression
 
-//1
+//1 function declaration
 // function func(){
 //     console.log("hello world")
 // }

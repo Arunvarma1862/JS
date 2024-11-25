@@ -6,7 +6,7 @@
   let firstName = "India";
   console.log(firstName);
 }
-//   console.log(firstName);
+  // console.log(firstName);
 
 //lexical scope
 

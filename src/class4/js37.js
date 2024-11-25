@@ -6,7 +6,7 @@
 //     }
 //     return a+b;
 // }
-// const bd=addTwo(4,36);
+// const bd=addTwo(4,23);
 // console.log(bd)
 
 
