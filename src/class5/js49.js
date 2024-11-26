@@ -4,7 +4,7 @@
 // every method ----> return true or false 
 
 // 1
-const arr=[4,6,50,8,90];
+const arr=[4,6,56,8,90];
 
 let a=arr.every((num)=>num%2===0);
 console.log(a);

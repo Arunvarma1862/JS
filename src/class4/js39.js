@@ -8,12 +8,12 @@ const person={
     gender:"male"
 }
 
-// function print(obj){
-//    console.log(obj.name);
-//    console.log(obj.gender);
-//    console.log(obj.ages)
-// }
-// print(person)
+function print(obj){
+   console.log(obj.name);
+   console.log(obj.gender);
+   console.log(obj.ages)
+}
+print(person)
 
 function print({name,gender,ages}){
    console.log(name);

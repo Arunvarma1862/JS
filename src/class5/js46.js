@@ -26,8 +26,12 @@ const usercart= [
 ];
 let TotalPrice= usercart.reduce((acc,cv,i,a)=>{
     return acc + cv.price
-},0)
-console.log(TotalPrice)
+},0);
+let Totalcloth= usercart.map((v,i,a)=>{
+    return v.productName
+})
+console.log(TotalPrice);
+console.log(Totalcloth)
 
 // let total=0;
 // for (let index = 0; index < usercart.length; index++) {

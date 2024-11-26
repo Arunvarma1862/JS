@@ -14,6 +14,7 @@ let newArr= arr.map((value,index,array)=>{
     return value*value;
 })
 console.log(newArr);
+console.log(arr);
 
 
 const users=[

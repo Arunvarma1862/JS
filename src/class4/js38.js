@@ -14,12 +14,12 @@ function add(...a){
     for(let ab of a){
        total=total+ab    
     }
+    console.log(a);
+    console.log(typeof a);
+    console.log(Array.isArray(a))
     return total;
     
-    
- console.log(a);
- console.log(typeof a);
- console.log(Array.isArray(a))
+
 }
 
 const x=add(1,2,3,4,5,6);
