@@ -1,5 +1,8 @@
 // example -2
 
+//3. Currying
+// Closures help in creating partially applied functions (currying).
+
 // function myfunc1(power) {
 //   return function (number) {
 //     //   console.log(number ** power)
