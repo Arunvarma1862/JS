@@ -11,7 +11,7 @@ function randomcolor(){
 const but= document.querySelector('button')
 const id=setInterval(()=>{
     body.style.backgroundColor= randomcolor()
-},1000);
+},5000);
 
 but.addEventListener('click',()=>{
       clearTimeout(id);

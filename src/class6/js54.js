@@ -1,36 +1,36 @@
 // sets
 // it is iterable
 // Store data
-// sets also have its own same method
+// sets also have its own some method
 // no index based access
 // order is not guranteed
 // unique items only (no duplicate allowed)
 
-// const item=["item21","item2","item3"]
-// const num= new Set();
-// num.add(1);
-// num.add(2);
-// num.add(3);
-// num.add(4);
-// num.add(5);
-// num.add(6);
-// num.add(item);
-// num.add(item);  // not possible , same memory reference
-// num.add(["item51","item52"]);  // memory reference type difference 
-// num.add(["item21","item52"]);  // memory reference type difference
+const item=["item21","item2","item3"]
+const num= new Set();
+num.add(1);
+num.add(2);
+num.add(3);
+num.add(4);
+num.add(5);
+num.add(66);
+num.add(item);
+num.add(item);  // not possible , same memory reference
+num.add(["item51","item52"]);  // memory reference type difference 
+num.add(["item21","item52"]);  // memory reference type difference
 
-// if(num.has(1)){
-//     console.log("1 is present")
-// }
-// else{
-//     console.log("1 is not present")
-// }
+if(num.has(1)){
+    console.log("1 is present")
+}
+else{
+    console.log("1 is not present")
+}
 
-// for(let key of num){
-//     console.log(key)
-// }
-// console.log(num);
-// console.log(num[2]); // not possible to access index in sets
+for(let key of num){
+    console.log(key)
+}
+console.log(num);
+console.log(num[2]); // not possible to access index in sets
 
 
 

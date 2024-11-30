@@ -10,7 +10,7 @@
 // as key
 
 // in maps you can use anything as key
-// like array , number, string
+// like array , number, string , object
 
 
 
@@ -26,7 +26,7 @@
 
 
 // maps- store key value pair, In object key can be string and symbol but in map key can be any type data
-//1
+// 1
 // const person = new Map();
 // person.set("firstname","virat");
 // person.set("age",56);
@@ -42,20 +42,21 @@
 // }
 
 // for(let [key,value] of person){
-//     // console.log(key,Array.isArray(key));
-//        console.log(key, value)
+    //    console.log(key,Array.isArray(key));
+    //    console.log(key, value)
 // }
 
 
 //2
-// const person = new Map([["firstname","virat"],["age",523]]);
+const person = new Map([["firstname","virat"],["age",523]]);
 // console.log(person);
 
 
 //3
 const person1={
     id:1,
-    name:"virat"
+    name:"virat",
+    // id:5
 }
 const person2={
     id:2,

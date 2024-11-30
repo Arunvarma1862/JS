@@ -43,19 +43,40 @@
 //3
 
 
-function getTwoNumbersAndAdd(number1,number2,onSucess,onFailure){
-    if(typeof number1 === "number" && typeof number2 === "number"){
-        onSucess(number1,number2)
+// function getTwoNumbersAndAdd(number1,number2,onSucess,onFailure){
+//     if(typeof number1 === "number" && typeof number2 === "number"){
+//         onSucess(number1,number2)
+//     }
+//     else{
+//         onFailure()
+//     } 
+// }
+// function addNumbers(num1,num2){
+//     console.log(num1+num2);
+// }
+// const onFail=()=>{
+//     console.log("wrong Data")
+// }
+
+// getTwoNumbersAndAdd(4,6,addNumbers,onFail);
+
+
+//4
+
+function getMultipleTwoNumbers(number1,number2,onsucess,onFailure){
+    if(typeof number1 ==="number" && typeof number2 ==="number"){
+        onsucess(number1,number2)
     }
     else{
         onFailure()
-    } 
-}
-function addNumbers(num1,num2){
-    console.log(num1+num2);
-}
-const onFail=()=>{
-    console.log("wrong Data")
+    }
 }
 
-getTwoNumbersAndAdd(4,6,addNumbers,onFail);
+function mulNumber(num1,num2){
+    console.log(num1*num2)
+}
+const onFail=()=>{
+    console.log("wrong data")
+}
+
+getMultipleTwoNumbers(4,6,mulNumber,onFail)
