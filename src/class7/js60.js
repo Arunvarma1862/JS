@@ -15,17 +15,21 @@ const user1={
 const user2={
     firstname:"kohil",
     age:36,
- 
 }
-//call
+// call-Invokes a function and explicitly sets the value of this. Arguments are passed individually.
 // user1.about.call(user2);
 about.call(user2,"violin","sidram");
 
-//apply
-about.apply(user1,["violin","rahman"])
+//apply- Similar to call, but arguments are passed as an array. Passed as an array.
+about.apply(user1,["violin","rahman"]);
 
-//bind
-const func1=about.bind(user1,"violin","bach");
-func1();
+//bind- Returns a new function with this bound to the specified value. It does not immediately invoke the function. Sets this and returns a new function.
+const func1=about.bind(user1,"violin");
+func1("bach");
+
+// When to Use
+// Use call when arguments are simple and passed individually.
+// Use apply when arguments are already in an array.
+// Use bind when you need to create a new function with this permanently set.
 
 // hello world 

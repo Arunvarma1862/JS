@@ -8,9 +8,8 @@ xhr.onload=function(){
 
     if(xhr.status >=200 && xhr.status <300){
         const response= xhr.response;
-       const data= JSON.parse(response);
-       console.log(data) ;
-      
+        const data= JSON.parse(response);
+        console.log(data) ;
     }
     else{
         console.log("something went wrong")

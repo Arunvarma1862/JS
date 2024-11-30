@@ -10,6 +10,7 @@ const userMethods={
    sing:function(){
     return "toon na na na la la la"
    }
+   
  }
  
  function createUser(firstName,lastName,email,age,address){

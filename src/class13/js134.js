@@ -7,7 +7,7 @@ xhr.open("GET",URL);
 xhr.onload=function(){
 
     if(xhr.status >=200 && xhr.status <300){
-        const response= xhr.response;
+       const response= xhr.response;
        const data= JSON.parse(response);
        console.log(data) ;
        const id = data[3].id;
@@ -16,7 +16,7 @@ xhr.onload=function(){
        console.log(URL2)
        xhr2.open("GET",URL2);
        xhr2.onload=function(){
-        if(xhr.status >=200 && xhr.status <300){
+        if(xhr2.status >=200 && xhr2.status <300){
             const data2= JSON.parse(xhr2.response);
             console.log(data2)
         }

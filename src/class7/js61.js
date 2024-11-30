@@ -10,9 +10,9 @@ const user1={
 
 //dont do this mistake-some warnings
 
-// user1.about();-right
-// const func=user1.about; //-this refers to window
-const func=user1.about.bind(user1);
+// user1.about();//-right
+const func=user1.about; //-this refers to window
+// const func=user1.about.bind(user1);
 func()
 
 

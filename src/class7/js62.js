@@ -9,4 +9,6 @@ const user1={
     }
 }
 
-user1.about()
+user1.about();
+// const func= user1.about.bind(user1);
+// func()

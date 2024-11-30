@@ -3,6 +3,7 @@
 // function hello(){
 //     console.log("hello world")
 // }
+
 //1
 // javascript function -> function + object 
 

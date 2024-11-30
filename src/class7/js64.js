@@ -1,25 +1,25 @@
 // Factory functions
 
 
-// const user={
-//     firstName:"viart",
-//     lastName:"kohil",
-//     email:"arunbabu120894@gmail.com",
-//     age:19,
-//     address:"house number-566, delhi, UP",
-//     about:function(){
-//         return `${this.firstName} and age is ${this.age}`
-//     },
-//     is18:function(){
-//         return this.age >=18
-//     }
-// }
+const user={
+    firstName:"viart",
+    lastName:"kohil",
+    email:"arunbabu120894@gmail.com",
+    age:19,
+    address:"house number-566, delhi, UP",
+    about:function(){
+        return `${this.firstName} and age is ${this.age}`
+    },
+    is18:function(){
+        return this.age >=18
+    }
+}
 
-// const results=user.about();
-// console.log(results);
+const results=user.about();
+console.log(results);
 
 
-// 1.function (that function creates the object)
+// 1. function (that function creates the object)
 // 2. add key value pair
 // 3. object ko return karega
 
