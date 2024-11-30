@@ -2,7 +2,7 @@
 // promise chaining
 // Promise.resolve and more about then method
 
-// promise resolve
+// ****************promise resolve*****************
 
 // const myPromise= Promise.resolve(5);
 // myPromise.then((value)=>{
@@ -13,7 +13,7 @@
 
 
 
-// promise chaining
+// *********************promise chaining*********************
 
 function myPromise(){
     return new Promise((resolve,reject)=>{
