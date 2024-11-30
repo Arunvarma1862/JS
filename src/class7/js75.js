@@ -12,7 +12,6 @@ class Animal{
     isSuperCute(){
         return this.age <=1
     }
-
     isCute(){
         return true
     }
