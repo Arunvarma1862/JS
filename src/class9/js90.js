@@ -1,5 +1,5 @@
 // example-3
-
+// The variable count is private to the counter function and cannot be accessed directly.
 function func1(){
     let counter=0;
    return function(){
