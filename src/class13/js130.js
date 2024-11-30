@@ -20,8 +20,7 @@ function changeText(element,text,color,time){
                 element.style.color=color;
                 resolve()  
             }
-            else{
-               
+            else{ 
                 reject("heading")
             }     
         }, time);
