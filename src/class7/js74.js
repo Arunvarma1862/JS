@@ -26,6 +26,7 @@ class createUser{
   func1(a){
     console.log(a)
   }
+  
 }
 
  const user1= new createUser("ram","singh","ram@gmail.com",52,"house number-18, UP");

@@ -1,6 +1,6 @@
 // new keyword 
 
-function  createUser(firstName,age){
+function createUser(firstName,age){
     this.firstName=firstName;
     this.age=age;
 }

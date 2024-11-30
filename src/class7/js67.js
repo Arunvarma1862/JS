@@ -2,7 +2,10 @@
 
 const obj1={
     key1:"value1",
-    key2:"value2"
+    key2:"value2",
+    about(){
+        console.log(`${this.key1},${this.key2}`)
+    }
 }
 
 // another way to create empty object

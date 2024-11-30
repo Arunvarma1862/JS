@@ -11,6 +11,8 @@ console.log(hello.prototype);
 hello.prototype=[];
 console.log(hello.prototype);
 hello.prototype.push("1");
+hello.prototype.push({1:"hello"})
+console.log(hello.prototype)
 hello.prototype.about=function(){
     console.log("hello world")
 }

@@ -20,6 +20,7 @@ createUser.prototype.is18=function(){
 createUser.prototype.sing=function(){
     return "toon na na na la la la"
    }
+   
  
   const user1= new createUser("ram","singh","ram@gmail.com",52,"house number-18, UP");
   const user2= new createUser("sam","singh","sam@gmail.com",525,"house number-158, AP");

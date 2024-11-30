@@ -19,7 +19,6 @@
      user.email=email;
      user.age=age;
      user.address=address;
-    
      return user;
  };
  createUser.prototype.about=function(){
