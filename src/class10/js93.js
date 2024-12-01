@@ -1,7 +1,12 @@
 // select element by using id
 
-const h2=document.getElementById("main-heading");
+// const h2=document.getElementById("main-heading");
+// h2.style.color="blue";
+
+
+const h2=document.querySelector("#main-heading");
 h2.style.color="blue";
+
 
 console.log(typeof document.getElementById("main-heading"));
 console.log(h2);

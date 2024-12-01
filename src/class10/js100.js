@@ -16,7 +16,22 @@
 //         </div>`;
 
 
-const headline= document.querySelector(".headline");
+const nodeList= document.querySelectorAll(".nav-item");
+console.log(nodeList[0]);
+
+nodeList[1].addEventListener("click",(e)=>{
+    e.preventDefault()
+    const headline= document.querySelector(".headline");
 headline.innerHTML="<h2>inner html changed</h2>";
 // headline.innerHTML += `<button class="btn btn-headline">learn more</button>`;
-headline.innerHTML += "<button class=\"btn btn-headline\">learn more</button>";
+// headline.innerHTML += "<button class=\"btn btn-headline\">learn more</button>";
+headline.innerHTML=headline.innerHTML+"<button class=\"btn btn-headline\">learn more</button>"
+
+})
+
+
+// const headline= document.querySelector(".headline");
+// headline.innerHTML="<h2>inner html changed</h2>";
+// // headline.innerHTML += `<button class="btn btn-headline">learn more</button>`;
+// // headline.innerHTML += "<button class=\"btn btn-headline\">learn more</button>";
+// headline.innerHTML=headline.innerHTML+"<button class=\"btn btn-headline\">learn more</button>"

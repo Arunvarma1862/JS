@@ -6,14 +6,14 @@
 
 //simple for loop
 // for of loop
-// for each loop - we can't use foreach method to iterate the html collection
+// for each loop - we can't use foreach method to iterate the html collection-Convert HTMLCollection to an array for iteration
 
 
                               // simple for loop
 // const navItems= document.getElementsByClassName("nav-item");  //gives  html collections
 // let navItems= document.getElementsByTagName("a"); 
 //   for(let i=0;navItems.length;i++){
-//       navItems[i].style.backgroundColor="blue";
+//        navItems[i].style.backgroundColor="blue";
 //        navItems[i].style.color="white";
 //        navItems[i].style.fontWeight="bold";
 //   }

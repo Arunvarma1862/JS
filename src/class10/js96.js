@@ -1,8 +1,8 @@
 // changes the styles of elements using js 
 
-// const example= document.querySelector("div.headline h2");
-// console.log(example);
-// console.log(example.style)
+const example= document.querySelector("div.headline h2");
+console.log(example);
+console.log(example.style)
 
 const mainheading= document.querySelector("#main-heading");
 mainheading.style.color="green";

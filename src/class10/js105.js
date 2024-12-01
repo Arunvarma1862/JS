@@ -4,7 +4,7 @@
 //beforend
 //afterend
 
-const todolist= document.querySelector(".todo-list ");
+const todolist= document.querySelector(".todo-list");
 // todolist.insertAdjacentHTML("beforeend","<li>Todo-5</li>");
 // todolist.insertAdjacentHTML("beforebegin","<li>Todo-5</li>");
 // todolist.insertAdjacentHTML("afterend","<li>Todo-5</li>");
