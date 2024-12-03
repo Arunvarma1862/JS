@@ -9,7 +9,7 @@ const body= document.body;
 
 const but= document.querySelector('.btn-headline');
 but.addEventListener('mouseover',(e)=>{
-   // alert("hello world");
+   alert("hello world");
    console.log("mouseover")
    
 })

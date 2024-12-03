@@ -17,7 +17,7 @@ console.log(All);
 //     })
 // }
 
-All.forEach((function(but){
+All.forEach(((but)=>{
   but.addEventListener('click',function(){
     console.log(this);
     console.log(this.textContent)

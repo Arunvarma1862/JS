@@ -11,10 +11,10 @@ const All= document.querySelectorAll("button");
 
 for(let a of All){
     a.addEventListener("click",function(event){
-        // console.log(this);
-        // console.dir(this);
-        // console.log(this.textContent);
-        // console.log(event);
+        console.log(this);
+        console.dir(this);
+        console.log(this.textContent);
+        console.log(event);
         console.log(event.target);
         console.log(event.currentTarget);
         console.log(event.target.value)

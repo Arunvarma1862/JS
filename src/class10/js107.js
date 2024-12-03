@@ -4,6 +4,7 @@
 //replacechild
 //removechild
 
+
 //append child
 // const ul= document.querySelector(".todo-list");
 // const li= document.createElement("li");
@@ -18,7 +19,7 @@
 // li.textContent="todo56";
 // ul.insertBefore(li,reference);
 
-//replacechild
+// replacechild
 // const ul= document.querySelector(".todo-list");
 // const li= document.createElement("li");
 // const reference= document.querySelector(".first-list")

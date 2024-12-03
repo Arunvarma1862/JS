@@ -9,6 +9,8 @@ node.forEach((items)=>{
 });
 
 
+
+
 // const html= document.getElementsByTagName("li");// html collection
 // Array.from(html).forEach((items)=>{
 //      items.style.color="blue"

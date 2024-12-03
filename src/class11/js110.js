@@ -17,6 +17,7 @@ const but= document.querySelector(".btn-headline");
 function clickme(){
     console.log("hello world");
     alert("hello world")
-    
+
 }
+
 but.addEventListener("click",clickme);

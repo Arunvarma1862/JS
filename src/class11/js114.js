@@ -1,7 +1,7 @@
 // How event listener works
 
 const allbuttons= document.querySelectorAll(".my-buttons button");
-// console.log(allbuttons);
+console.log(allbuttons);
 
 console.log("script starts!!!!")
 allbuttons.forEach((function(but){
@@ -13,7 +13,9 @@ allbuttons.forEach((function(but){
            num+=i;
         }
         console.log(num);
-        console.log(event.currentTarget.textContent)
+        console.log(but)
+        console.log(event.currentTarget.textContent);
+        console.log(event.currentTarget.value)
      })
 }))
 
