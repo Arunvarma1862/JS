@@ -8,8 +8,7 @@ export class person{
         console.log(this.firstname,this.lastname, this.age)
     }
 }
-
-export   class person2{
+export class person2{
     constructor(firstname,lastname,age){
         this.firstname=firstname;
         this.lastname=lastname;

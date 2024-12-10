@@ -17,16 +17,16 @@ const store={
         }
       ],
 }
+
 const storeHandler={
 
   get(target,property){
-    // console.log("get the",property);
+    console.log("get the",property);
     return target[property]
   },
   set(target,property,value){
-    // console.log(target,property,value);
-    // console.log("set the ",property);
-
+    console.log(target,property,value);
+    console.log("set the ",property);
     target[property]= value;
     if(property ==="todos"){
       window.dispatchEvent(new Event("todoschange"))

@@ -47,6 +47,7 @@ todos.addEventListener("click",(e)=>{
         // console.log(li);
         deleteTodo(li);
     
+        
     }
 })
 
